@@ -21,6 +21,7 @@ class BiasedInfluenceGraph(nx.DiGraph):
             self.labels[label] = edge
             self.alphabet.append(label)
         self.set_initial_opinions(ops)
+        self.initial_state = self.opinion.copy()
         self.influence_fn = influence_fn
         self.bias_fn = bias_fn
         self.keep_history = keep_history
@@ -74,3 +75,15 @@ class BiasedInfluenceGraph(nx.DiGraph):
             test = Check(self)
         for t, e in enumerate(word):
             self.execute_edge(self.labels[e])
+
+    def reset_opinions(self):
+        self.opinion = self.initial_state.copy()
+        if self.keep_history:
+            self.history = [[*self.opinion.values()]]
+
+    def consensus(self):
+        tolerance = 0.01
+        return max(self.opinion.values()) - min(self.opinion.values()) < tolerance
+    
+    def __str__(self):
+        return "BiasedInfluenceGraph with %d nodes and %d edges" % (self.number_of_nodes(), self.number_of_edges())
