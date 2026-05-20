@@ -3,5 +3,9 @@ venv
 .env
 images
 plots
+figures
+results
+bots_results.zip
+bots_figures.zip
 
 dataframes/
