@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "paper_section": "6.2",
+    "paper_figure": 6,
+    "sigma": 2.4,
+    "I": 0.5,
+    "sigma_I": 1.2,
+    "B_init": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "eps": 0.01,
+    "steps": 4000,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "labels": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  "perms": [
+    {
+      "perm": "abcd",
+      "final_state": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "abdc",
+      "final_state": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "acbd",
+      "final_state": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "acdb",
+      "final_state": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "adbc",
+      "final_state": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "adcb",
+      "final_state": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "final_spread": 1.0,
+      "consensus": false
+    },
+    {
+      "perm": "bacd",
+      "final_state": [
+        0.47619047619047633,
+        0.47619047619047633,
+        0.47619047619047633
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "badc",
+      "final_state": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "final_spread": 1.0,
+      "consensus": false
+    },
+    {
+      "perm": "bcad",
+      "final_state": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "bcda",
+      "final_state": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "bdac",
+      "final_state": [
+        0.35714285714285726,
+        0.35714285714285726,
+        0.35714285714285726
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "bdca",
+      "final_state": [
+        0.6428571428571429,
+        0.6428571428571429,
+        0.6428571428571429
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "cabd",
+      "final_state": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "cadb",
+      "final_state": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "cbad",
+      "final_state": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "final_spread": 1.0,
+      "consensus": false
+    },
+    {
+      "perm": "cbda",
+      "final_state": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "cdab",
+      "final_state": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "cdba",
+      "final_state": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "dabc",
+      "final_state": [
+        0.5000000000000004,
+        0.5000000000000004,
+        0.5000000000000004
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "dacb",
+      "final_state": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "dbac",
+      "final_state": [
+        0.35714285714285726,
+        0.35714285714285726,
+        0.35714285714285726
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "dbca",
+      "final_state": [
+        0.6428571428571429,
+        0.6428571428571429,
+        0.6428571428571429
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "dcab",
+      "final_state": [
+        0.5238095238095236,
+        0.5238095238095236,
+        0.5238095238095236
+      ],
+      "final_spread": 0.0,
+      "consensus": true
+    },
+    {
+      "perm": "dcba",
+      "final_state": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "final_spread": 1.0,
+      "consensus": false
+    }
+  ],
+  "summary": {
+    "total": 24,
+    "converged": 20
+  }
+}
